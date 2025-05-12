@@ -1,0 +1,171 @@
+/*body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in;
+}
+
+.slide-in {
+  animation: slideIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #584545;
+  color: #fff;
+  padding: 2rem;
+  text-align: Left;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  text-align: left;
+  padding: 2rem;
+  border: 2px solid #383030; /* Add border here */
+  margin-bottom: 1rem;  /* Optional: Add some space between sections */
+  border-radius: 8px; /* Optional: Rounded corners for the box */
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 25%;
+  
+}
+
+.profile-name-container  h2 {
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form button {
+  padding: 0.5rem 5rem;
+  background: #333;
+  color: #fff;
+  border: color;
+}
+
+
+#declaration {
+  padding: 1rem;
+  border: 1px solid #eee; /* Example border */
+  margin-top: 1rem; /* Add some space above */
+  border-radius: 0.1px; /* Optional rounded corners */
+  text-align: left; /* Example text alignment */
+  font-size: 1rem; /* Example font size */
+  color: #555; /* Example text color */
+}
+
+#declaration h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+footer {
+  text-align: center; /* footer name change */
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+
+.slide-in {
+  animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
